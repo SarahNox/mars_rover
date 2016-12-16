@@ -4,6 +4,12 @@
 	<script type="text/javascript" src="rover.js"></script>
 </head>
 <body>
-
+	<p>Rover initial position: X = 0, Y = 0, Facing North. Grid Dimensions: 100 x 100</p>
+	<p>Enter commands (f: forward , b: backward , l: left , r: right)</p>
+	<input id="movement" type="text">
+	<button type="button" onclick="move_rover()">Move Rover</button>
+	<button type="button" onclick="reset()">Reset</button>
+	<br><br>
+	<b><div id="posistion">Rover Position: X=0 Y=0 Facing N</div></b>
 </body>
 </html>
